@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background-image: url(bg-pattern-bottom.svg), url(bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position:150% -100% ,-50% 150% ;
+    background-color: hsl(185, 75%, 39%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+main {
+    display: flex;
+    /* border: 2px solid hsl(231, 3%, 50%); */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: white;
+    margin: 1rem;
+    min-width: 350px;
+}
+
+#topimg {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+#person {
+    border: 4px solid white;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    position: absolute;
+    top: 88px;
+}
+
+
+
+#info {
+    /* border: 1px solid; */
+    padding: 1.5rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-info {
+    width: 100%;
+}
+
+#name {
+    font-weight: 700;
+    padding-bottom: 0.35rem;
+    font-size: 1.05rem;
+}
+
+#name span {
+    padding-left: 10px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size: 1rem;
+}
+
+#location {
+    color: hsl(227, 10%, 46%);
+}
+
+#follow {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1.3rem 0 1.3rem 0;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counting {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 0.3rem;
+}
+
+.information {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.7rem;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    color: hsl(227, 16%, 22%);
+}
+
+.attribution a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    font-weight: 600;
+    text-decoration: underline wavy;
+}
